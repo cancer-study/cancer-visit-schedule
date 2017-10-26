@@ -1,2 +1,2 @@
-# cancer-visit-schedule
+# cancer-visit-schdule
 Cancer Visit Schedule
