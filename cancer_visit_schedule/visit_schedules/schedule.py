@@ -8,218 +8,237 @@ from .requisitions import requisitions
 schedule1 = Schedule(
     name='schedule1',
     title='Cancer',
-    enrollment_model='cancer_subject.enrollment',
+    enrollment_model='cancer_subject.enrollmentchecklist',
     disenrollment_model='cancer_subject.disenrollment',
 )
 
 visit0 = Visit(
     code='1000',
-    title='Day 1',
+    title='Enrollment Visit',
     timepoint=0,
     rbase=relativedelta(days=0),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=45),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1000))
+schedule1.add_visit(visit=visit0)
 
 visit1 = Visit(
     code='1300',
-    title='Day 3',
+    title='Follow-up Visit 3 months',
     timepoint=1,
-    rbase=relativedelta(days=3),
+    rbase=relativedelta(months=3),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1300))
+schedule1.add_visit(visit=visit1)
 
 visit2 = Visit(
     code='1600',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up 6 months',
+    timepoint=2,
+    rbase=relativedelta(months=6),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1600))
+schedule1.add_visit(visit=visit2)
 
 visit3 = Visit(
     code='1900',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up 9 months',
+    timepoint=3,
+    rbase=relativedelta(months=9),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1900))
+schedule1.add_visit(visit=visit3)
 
 visit4 = Visit(
     code='2200',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 12 months',
+    timepoint=4,
+    rbase=relativedelta(months=12),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(2200))
+schedule1.add_visit(visit=visit4)
 
 visit5 = Visit(
     code='2500',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 15 months',
+    timepoint=5,
+    rbase=relativedelta(months=15),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(2500))
+schedule1.add_visit(visit=visit5)
 
 visit6 = Visit(
     code='2800',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 18 months',
+    timepoint=6,
+    rbase=relativedelta(months=18),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(2800))
+schedule1.add_visit(visit=visit6)
 
 visit7 = Visit(
     code='3100',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 21',
+    timepoint=7,
+    rbase=relativedelta(months=21),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(3100))
+schedule1.add_visit(visit=visit7)
 
 visit8 = Visit(
     code='3400',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 24 months',
+    timepoint=8,
+    rbase=relativedelta(months=24),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(3400))
+schedule1.add_visit(visit=visit8)
 
 visit9 = Visit(
     code='3700',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 27 months',
+    timepoint=9,
+    rbase=relativedelta(months=27),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(3700))
+schedule1.add_visit(visit=visit9)
 
 visit10 = Visit(
     code='4000',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 30 months',
+    timepoint=10,
+    rbase=relativedelta(months=30),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4000))
+schedule1.add_visit(visit=visit10)
 
 visit11 = Visit(
     code='4300',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 33 months',
+    timepoint=11,
+    rbase=relativedelta(months=33),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4300))
+schedule1.add_visit(visit=visit11)
 
 visit12 = Visit(
     code='4600',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 36 months',
+    timepoint=12,
+    rbase=relativedelta(months=36),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4600))
+schedule1.add_visit(visit=visit12)
 
 visit13 = Visit(
     code='4900',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 39 months',
+    timepoint=13,
+    rbase=relativedelta(months=39),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4900))
-
+schedule1.add_visit(visit=visit13)
+#
 visit14 = Visit(
     code='5200',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 42 months',
+    timepoint=14,
+    rbase=relativedelta(months=42),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(5200))
+schedule1.add_visit(visit=visit14)
 
 visit15 = Visit(
     code='5500',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 45 months',
+    timepoint=15,
+    rbase=relativedelta(months=45),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(5500))
+schedule1.add_visit(visit=visit15)
 
 visit16 = Visit(
     code='5800',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 48 months',
+    timepoint=16,
+    rbase=relativedelta(months=48),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(5800))
+schedule1.add_visit(visit=visit16)
 
 visit17 = Visit(
     code='6100',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 51 months',
+    timepoint=17,
+    rbase=relativedelta(months=51),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(6100))
+schedule1.add_visit(visit=visit17)
 
 visit18 = Visit(
     code='6400',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 54 months',
+    timepoint=18,
+    rbase=relativedelta(months=54),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(6400))
+schedule1.add_visit(visit=visit18)
 
 visit19 = Visit(
     code='6700',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 57 months',
+    timepoint=19,
+    rbase=relativedelta(months=57),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(6700))
+schedule1.add_visit(visit=visit19)
 
 visit20 = Visit(
     code='7000',
-    title='Day 3',
-    timepoint=1,
-    rbase=relativedelta(days=3),
+    title='Follow-up Visit 60 months',
+    timepoint=20,
+    rbase=relativedelta(months=60),
     rlower=relativedelta(days=0),
-    rupper=relativedelta(days=6),
+    rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(7000))
-
-schedule1.add_visit(visit=visit0)
+schedule1.add_visit(visit=visit20)
