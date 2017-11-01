@@ -36,7 +36,7 @@ schedule1.add_visit(visit=visit1)
 
 visit2 = Visit(
     code='1600',
-    title='Follow-up 6 months',
+    title='Follow-up Visit 6 months',
     timepoint=2,
     rbase=relativedelta(months=6),
     rlower=relativedelta(days=0),
@@ -47,7 +47,7 @@ schedule1.add_visit(visit=visit2)
 
 visit3 = Visit(
     code='1900',
-    title='Follow-up 9 months',
+    title='Follow-up Visit 9 months',
     timepoint=3,
     rbase=relativedelta(months=9),
     rlower=relativedelta(days=0),
@@ -91,7 +91,7 @@ schedule1.add_visit(visit=visit6)
 
 visit7 = Visit(
     code='3100',
-    title='Follow-up Visit 21',
+    title='Follow-up Visit 21 months',
     timepoint=7,
     rbase=relativedelta(months=21),
     rlower=relativedelta(days=0),
