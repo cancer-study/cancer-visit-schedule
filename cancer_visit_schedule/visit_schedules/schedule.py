@@ -6,11 +6,12 @@ from .requisitions import requisitions
 
 # schedule for new participants
 schedule1 = Schedule(
-    name='schedule1',
-    title='Cancer',
-    enrollment_model='cancer_subject.enrollmentchecklist',
-    disenrollment_model='cancer_subject.disenrollment',
-)
+    name='schedule',
+    verbose_name='Cancer',
+    onschedule_model='cancer_subject.onschedule',
+    offschedule_model='cancer_subject.subject_offstudy',
+    consent_model='cancer_subject.subjectconsent',
+    appointment_model='edc_appointment.appointment')
 
 visit0 = Visit(
     code='1000',
