@@ -1,6 +1,6 @@
-from edc_visit_schedule.visit import Crf
+from edc_visit_schedule import FormsCollection, Crf
 crf = {}
-crfs_1000 = (
+crfs_1000 = FormsCollection(
     Crf(show_order=2, model='cancer_subject.symptomsandtesting'),
     Crf(show_order=3, model='cancer_subject.labresultheightweight'),
     Crf(show_order=4, model='cancer_subject.activityandfunctioning'),
@@ -27,45 +27,50 @@ crfs_1000 = (
     Crf(show_order=25, model='cancer_subject.oncologytreatmentrecord'),
     Crf(show_order=26, model='cancer_subject.otrsurgical'),
     Crf(show_order=27, model='cancer_subject.otrchemo'),
-    Crf(show_order=28, model='cancer_subject.radiationtreatment'))
+    Crf(show_order=28, model='cancer_subject.radiationtreatment'),
+    name='enrollment')
 crf.update({1000: crfs_1000})
 
-crfs_1300 = (
+crfs_1300 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
     Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
     Crf(show_order=4, model='cancer_subject.otrchemo'),
     Crf(show_order=5, model='cancer_subject.radiationtreatment'),
-    Crf(show_order=6, model='cancer_subject.otrsurgical'))
+    Crf(show_order=6, model='cancer_subject.otrsurgical'),
+    name='month3')
 crf.update({1300: crfs_1300})
 
-crfs_1600 = (
+crfs_1600 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
     Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
     Crf(show_order=4, model='cancer_subject.otrchemo'),
     Crf(show_order=5, model='cancer_subject.radiationtreatment'),
-    Crf(show_order=6, model='cancer_subject.otrsurgical'))
+    Crf(show_order=6, model='cancer_subject.otrsurgical'),
+    name='month6')
 crf.update({1600: crfs_1600})
 
-crfs_1900 = (
+crfs_1900 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
     Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
     Crf(show_order=4, model='cancer_subject.otrchemo'),
     Crf(show_order=5, model='cancer_subject.radiationtreatment'),
-    Crf(show_order=6, model='cancer_subject.otrsurgical'))
+    Crf(show_order=6, model='cancer_subject.otrsurgical'),
+    name='month12')
 crf.update({1900: crfs_1900})
 
-crfs_2200 = (
+crfs_2200 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
     Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
     Crf(show_order=4, model='cancer_subject.otrchemo'),
-    Crf(show_order=5, model='cancer_subject.otrsurgical'))
+    Crf(show_order=5, model='cancer_subject.otrsurgical'),
+    name='month15')
 crf.update({2200: crfs_2200})
 
-_crfs = (
+_crfs = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'))
 
