@@ -7,6 +7,7 @@ visit_schedule1 = VisitSchedule(
     verbose_name='Cancer',
     offstudy_model='cancer_subject.subjectoffstudy',
     locator_model='cancer_subject.subject_locator',
+    death_report_model='cancer_subject.af005',
     previous_visit_schedule=None)
 
 visit_schedule1.add_schedule(schedule1)
