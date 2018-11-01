@@ -22,7 +22,7 @@ visit0 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1000),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit0)
 
 visit1 = Visit(
@@ -34,7 +34,7 @@ visit1 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1300),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit1)
 
 visit2 = Visit(
@@ -46,7 +46,7 @@ visit2 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1600),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit2)
 
 visit3 = Visit(
@@ -58,7 +58,7 @@ visit3 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(1900),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit3)
 
 visit4 = Visit(
@@ -70,7 +70,7 @@ visit4 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(2200),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit4)
 
 visit5 = Visit(
@@ -82,7 +82,7 @@ visit5 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(2500),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit5)
 
 visit6 = Visit(
@@ -94,7 +94,7 @@ visit6 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(2800),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit6)
 
 visit7 = Visit(
@@ -106,7 +106,7 @@ visit7 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(3100),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit7)
 
 visit8 = Visit(
@@ -118,7 +118,7 @@ visit8 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(3400),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit8)
 
 visit9 = Visit(
@@ -130,7 +130,7 @@ visit9 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(3700),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit9)
 
 visit10 = Visit(
@@ -142,7 +142,7 @@ visit10 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4000),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit10)
 
 visit11 = Visit(
@@ -154,7 +154,7 @@ visit11 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4300),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit11)
 
 visit12 = Visit(
@@ -166,7 +166,7 @@ visit12 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4600),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit12)
 
 visit13 = Visit(
@@ -178,7 +178,7 @@ visit13 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(4900),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit13)
 #
 visit14 = Visit(
@@ -190,7 +190,7 @@ visit14 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(5200),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit14)
 
 visit15 = Visit(
@@ -202,7 +202,7 @@ visit15 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(5500),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit15)
 
 visit16 = Visit(
@@ -214,7 +214,7 @@ visit16 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(5800),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit16)
 
 visit17 = Visit(
@@ -226,7 +226,7 @@ visit17 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(6100),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit17)
 
 visit18 = Visit(
@@ -238,7 +238,7 @@ visit18 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(6400),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit18)
 
 visit19 = Visit(
@@ -250,7 +250,7 @@ visit19 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(6700),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit19)
 
 visit20 = Visit(
@@ -262,5 +262,5 @@ visit20 = Visit(
     rupper=relativedelta(days=0),
     requisitions=requisitions,
     crfs=crf.get(7000),
-    facility_name='5-day clinic'),
+    facility_name='5-day clinic')
 schedule1.add_visit(visit=visit20)
