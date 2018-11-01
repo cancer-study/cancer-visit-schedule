@@ -12,7 +12,7 @@ crfs_1000 = FormsCollection(
     Crf(show_order=10, model='cancer_subject.baseriskassessmentfuel'),
     Crf(show_order=11, model='cancer_subject.baseriskassessmentchemical'),
     Crf(show_order=12, model='cancer_subject.baseriskassessmentmining'),
-    Crf(show_order=33, model='cancer_subject.baseriskassessmenteating'),
+    Crf(show_order=13, model='cancer_subject.baseriskassessmenteating'),
     Crf(show_order=14, model='cancer_subject.baseriskassessmentsmoking'),
     Crf(show_order=15, model='cancer_subject.baseriskassessmentalcohol'),
     Crf(show_order=16, model='cancer_subject.cancerdiagnosis'),

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cancer_visit_schedule.apps.AppConfig',
+    'edc_visit_schedule.apps.AppConfig'
 ]
 
 MIDDLEWARE = [
