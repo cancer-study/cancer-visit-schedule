@@ -1,4 +1,5 @@
 from edc_visit_schedule import FormsCollection, Crf
+
 crf = {}
 crfs_1000 = FormsCollection(
     Crf(show_order=2, model='cancer_subject.symptomsandtesting'),

@@ -23,7 +23,7 @@ visit0 = Visit(
     requisitions=requisitions,
     crfs=crf.get(1000),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit0)
+
 
 visit1 = Visit(
     code='1300',
@@ -35,7 +35,7 @@ visit1 = Visit(
     requisitions=requisitions,
     crfs=crf.get(1300),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit1)
+
 
 visit2 = Visit(
     code='1600',
@@ -47,7 +47,7 @@ visit2 = Visit(
     requisitions=requisitions,
     crfs=crf.get(1600),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit2)
+
 
 visit3 = Visit(
     code='1900',
@@ -59,7 +59,7 @@ visit3 = Visit(
     requisitions=requisitions,
     crfs=crf.get(1900),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit3)
+
 
 visit4 = Visit(
     code='2200',
@@ -71,7 +71,7 @@ visit4 = Visit(
     requisitions=requisitions,
     crfs=crf.get(2200),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit4)
+
 
 visit5 = Visit(
     code='2500',
@@ -83,7 +83,7 @@ visit5 = Visit(
     requisitions=requisitions,
     crfs=crf.get(2500),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit5)
+
 
 visit6 = Visit(
     code='2800',
@@ -95,7 +95,7 @@ visit6 = Visit(
     requisitions=requisitions,
     crfs=crf.get(2800),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit6)
+
 
 visit7 = Visit(
     code='3100',
@@ -107,7 +107,7 @@ visit7 = Visit(
     requisitions=requisitions,
     crfs=crf.get(3100),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit7)
+
 
 visit8 = Visit(
     code='3400',
@@ -119,7 +119,7 @@ visit8 = Visit(
     requisitions=requisitions,
     crfs=crf.get(3400),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit8)
+
 
 visit9 = Visit(
     code='3700',
@@ -131,7 +131,7 @@ visit9 = Visit(
     requisitions=requisitions,
     crfs=crf.get(3700),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit9)
+
 
 visit10 = Visit(
     code='4000',
@@ -143,7 +143,7 @@ visit10 = Visit(
     requisitions=requisitions,
     crfs=crf.get(4000),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit10)
+
 
 visit11 = Visit(
     code='4300',
@@ -155,7 +155,7 @@ visit11 = Visit(
     requisitions=requisitions,
     crfs=crf.get(4300),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit11)
+
 
 visit12 = Visit(
     code='4600',
@@ -167,7 +167,7 @@ visit12 = Visit(
     requisitions=requisitions,
     crfs=crf.get(4600),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit12)
+
 
 visit13 = Visit(
     code='4900',
@@ -179,7 +179,7 @@ visit13 = Visit(
     requisitions=requisitions,
     crfs=crf.get(4900),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit13)
+
 #
 visit14 = Visit(
     code='5200',
@@ -191,7 +191,7 @@ visit14 = Visit(
     requisitions=requisitions,
     crfs=crf.get(5200),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit14)
+
 
 visit15 = Visit(
     code='5500',
@@ -203,7 +203,7 @@ visit15 = Visit(
     requisitions=requisitions,
     crfs=crf.get(5500),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit15)
+
 
 visit16 = Visit(
     code='5800',
@@ -215,7 +215,7 @@ visit16 = Visit(
     requisitions=requisitions,
     crfs=crf.get(5800),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit16)
+
 
 visit17 = Visit(
     code='6100',
@@ -227,7 +227,7 @@ visit17 = Visit(
     requisitions=requisitions,
     crfs=crf.get(6100),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit17)
+
 
 visit18 = Visit(
     code='6400',
@@ -239,7 +239,7 @@ visit18 = Visit(
     requisitions=requisitions,
     crfs=crf.get(6400),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit18)
+
 
 visit19 = Visit(
     code='6700',
@@ -251,7 +251,7 @@ visit19 = Visit(
     requisitions=requisitions,
     crfs=crf.get(6700),
     facility_name='5-day clinic')
-schedule1.add_visit(visit=visit19)
+
 
 visit20 = Visit(
     code='7000',
@@ -263,4 +263,25 @@ visit20 = Visit(
     requisitions=requisitions,
     crfs=crf.get(7000),
     facility_name='5-day clinic')
+
+schedule1.add_visit(visit=visit0)
+schedule1.add_visit(visit=visit1)
+schedule1.add_visit(visit=visit2)
+schedule1.add_visit(visit=visit3)
+schedule1.add_visit(visit=visit4)
+schedule1.add_visit(visit=visit5)
+schedule1.add_visit(visit=visit6)
+schedule1.add_visit(visit=visit7)
+schedule1.add_visit(visit=visit8)
+schedule1.add_visit(visit=visit9)
+schedule1.add_visit(visit=visit10)
+schedule1.add_visit(visit=visit11)
+schedule1.add_visit(visit=visit12)
+schedule1.add_visit(visit=visit13)
+schedule1.add_visit(visit=visit14)
+schedule1.add_visit(visit=visit15)
+schedule1.add_visit(visit=visit16)
+schedule1.add_visit(visit=visit17)
+schedule1.add_visit(visit=visit18)
+schedule1.add_visit(visit=visit19)
 schedule1.add_visit(visit=visit20)
