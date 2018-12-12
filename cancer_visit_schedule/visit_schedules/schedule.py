@@ -11,7 +11,7 @@ schedule1 = Schedule(
     onschedule_model='cancer_subject.onschedule',
     offschedule_model='cancer_subject.subjectoffstudy',
     consent_model='cancer_subject.subjectconsent',
-    appointment_model='edc_appointment.appointment')
+    appointment_model='cancer_subject.appointment')
 
 visit0 = Visit(
     code='1000',
