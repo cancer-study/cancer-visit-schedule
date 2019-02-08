@@ -36,9 +36,10 @@ crfs_1300 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
     Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
-    Crf(show_order=4, model='cancer_subject.otrchemo'),
-    Crf(show_order=5, model='cancer_subject.radiationtreatment'),
-    Crf(show_order=6, model='cancer_subject.otrsurgical'),
+    Crf(show_order=4, model='cancer_subject.otrchemo', required=False),
+    Crf(show_order=5, model='cancer_subject.radiationtreatment',
+        required=False),
+    Crf(show_order=6, model='cancer_subject.otrsurgical', required=False),
     name='month3')
 crf.update({1300: crfs_1300})
 
@@ -46,9 +47,10 @@ crfs_1600 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
     Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
-    Crf(show_order=4, model='cancer_subject.otrchemo'),
-    Crf(show_order=5, model='cancer_subject.radiationtreatment'),
-    Crf(show_order=6, model='cancer_subject.otrsurgical'),
+    Crf(show_order=4, model='cancer_subject.otrchemo', required=False),
+    Crf(show_order=5, model='cancer_subject.radiationtreatment',
+        required=False),
+    Crf(show_order=6, model='cancer_subject.otrsurgical', required=False),
     name='month6')
 crf.update({1600: crfs_1600})
 
@@ -56,18 +58,20 @@ crfs_1900 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
     Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
-    Crf(show_order=4, model='cancer_subject.otrchemo'),
-    Crf(show_order=5, model='cancer_subject.radiationtreatment'),
-    Crf(show_order=6, model='cancer_subject.otrsurgical'),
+    Crf(show_order=4, model='cancer_subject.otrchemo', required=False),
+    Crf(show_order=5, model='cancer_subject.radiationtreatment',
+        required=False),
+    Crf(show_order=6, model='cancer_subject.otrsurgical', required=False),
     name='month12')
 crf.update({1900: crfs_1900})
 
 crfs_2200 = FormsCollection(
     Crf(show_order=1, model='cancer_subject.activityandfunctioning'),
     Crf(show_order=2, model='cancer_subject.currentsymptoms'),
-    Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted'),
-    Crf(show_order=4, model='cancer_subject.otrchemo'),
-    Crf(show_order=5, model='cancer_subject.otrsurgical'),
+    Crf(show_order=3, model='cancer_subject.oncologytreatmentcompleted',
+        required=False),
+    Crf(show_order=4, model='cancer_subject.otrchemo', required=False),
+    Crf(show_order=5, model='cancer_subject.otrsurgical', required=False),
     name='month15')
 crf.update({2200: crfs_2200})
 
