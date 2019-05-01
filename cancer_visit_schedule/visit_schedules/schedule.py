@@ -9,7 +9,7 @@ schedule1 = Schedule(
     name='schedule',
     verbose_name='Cancer',
     onschedule_model='cancer_subject.onschedule',
-    offschedule_model='cancer_subject.subjectoffstudy',
+    offschedule_model='cancer_prn.subjectoffstudy',
     consent_model='cancer_subject.subjectconsent',
     appointment_model='cancer_subject.appointment')
 
@@ -24,7 +24,6 @@ visit0 = Visit(
     crfs=crf.get(1000),
     facility_name='5-day clinic')
 
-
 visit1 = Visit(
     code='1300',
     title='Follow-up Visit 3 months',
@@ -35,7 +34,6 @@ visit1 = Visit(
     requisitions=requisitions,
     crfs=crf.get(1300),
     facility_name='5-day clinic')
-
 
 visit2 = Visit(
     code='1600',
@@ -48,7 +46,6 @@ visit2 = Visit(
     crfs=crf.get(1600),
     facility_name='5-day clinic')
 
-
 visit3 = Visit(
     code='1900',
     title='Follow-up Visit 9 months',
@@ -59,7 +56,6 @@ visit3 = Visit(
     requisitions=requisitions,
     crfs=crf.get(1900),
     facility_name='5-day clinic')
-
 
 visit4 = Visit(
     code='2200',
@@ -72,7 +68,6 @@ visit4 = Visit(
     crfs=crf.get(2200),
     facility_name='5-day clinic')
 
-
 visit5 = Visit(
     code='2500',
     title='Follow-up Visit 15 months',
@@ -83,7 +78,6 @@ visit5 = Visit(
     requisitions=requisitions,
     crfs=crf.get(2500),
     facility_name='5-day clinic')
-
 
 visit6 = Visit(
     code='2800',
@@ -96,7 +90,6 @@ visit6 = Visit(
     crfs=crf.get(2800),
     facility_name='5-day clinic')
 
-
 visit7 = Visit(
     code='3100',
     title='Follow-up Visit 21 months',
@@ -107,7 +100,6 @@ visit7 = Visit(
     requisitions=requisitions,
     crfs=crf.get(3100),
     facility_name='5-day clinic')
-
 
 visit8 = Visit(
     code='3400',
@@ -120,7 +112,6 @@ visit8 = Visit(
     crfs=crf.get(3400),
     facility_name='5-day clinic')
 
-
 visit9 = Visit(
     code='3700',
     title='Follow-up Visit 27 months',
@@ -131,7 +122,6 @@ visit9 = Visit(
     requisitions=requisitions,
     crfs=crf.get(3700),
     facility_name='5-day clinic')
-
 
 visit10 = Visit(
     code='4000',
@@ -144,7 +134,6 @@ visit10 = Visit(
     crfs=crf.get(4000),
     facility_name='5-day clinic')
 
-
 visit11 = Visit(
     code='4300',
     title='Follow-up Visit 33 months',
@@ -156,7 +145,6 @@ visit11 = Visit(
     crfs=crf.get(4300),
     facility_name='5-day clinic')
 
-
 visit12 = Visit(
     code='4600',
     title='Follow-up Visit 36 months',
@@ -167,7 +155,6 @@ visit12 = Visit(
     requisitions=requisitions,
     crfs=crf.get(4600),
     facility_name='5-day clinic')
-
 
 visit13 = Visit(
     code='4900',
@@ -192,7 +179,6 @@ visit14 = Visit(
     crfs=crf.get(5200),
     facility_name='5-day clinic')
 
-
 visit15 = Visit(
     code='5500',
     title='Follow-up Visit 45 months',
@@ -203,7 +189,6 @@ visit15 = Visit(
     requisitions=requisitions,
     crfs=crf.get(5500),
     facility_name='5-day clinic')
-
 
 visit16 = Visit(
     code='5800',
@@ -216,7 +201,6 @@ visit16 = Visit(
     crfs=crf.get(5800),
     facility_name='5-day clinic')
 
-
 visit17 = Visit(
     code='6100',
     title='Follow-up Visit 51 months',
@@ -227,7 +211,6 @@ visit17 = Visit(
     requisitions=requisitions,
     crfs=crf.get(6100),
     facility_name='5-day clinic')
-
 
 visit18 = Visit(
     code='6400',
@@ -240,7 +223,6 @@ visit18 = Visit(
     crfs=crf.get(6400),
     facility_name='5-day clinic')
 
-
 visit19 = Visit(
     code='6700',
     title='Follow-up Visit 57 months',
@@ -251,7 +233,6 @@ visit19 = Visit(
     requisitions=requisitions,
     crfs=crf.get(6700),
     facility_name='5-day clinic')
-
 
 visit20 = Visit(
     code='7000',
